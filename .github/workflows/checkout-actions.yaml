@@ -1,10 +1,10 @@
-name : Shared Actions Example
+name : Checkout Example
 
 on : 
   workflow_dispatch:
 
 jobs:
-  shared-actions:
+  checkout-actions:
     runs-on: ubuntu-latest
 
     steps:
